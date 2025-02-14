@@ -19,7 +19,7 @@ The installation script downloads and installs Winget if it is not already prese
 
 #### Usage:
 ```powershell
-powershell.exe -ExecutionPolicy Bypass -File install-winget.ps1
+"%systemroot%\sysnative\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -ExecutionPolicy Bypass -File install-winget.ps1
 ```
 
 #### Behavior:
