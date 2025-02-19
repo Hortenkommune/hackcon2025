@@ -27,7 +27,7 @@ The installation script downloads and installs Winget if it is not already prese
 - If Winget is not installed, the script downloads and installs it.
 
 ## Background
-Due to a bug in Windows 11 24H2, Winget is not pre-installed for some users in userspace. These scripts ensure Winget is available in the userspace by manually downloading and installing the required package.
+Due to desktopappinstaller that handels Winget, Winget is not pre-installed for some users in userspace. These scripts ensure Winget is available in the userspace by manually downloading and installing the required package.
 
 ## Author
 Per-Ole Fanuelsen and ChatGPT
