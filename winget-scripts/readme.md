@@ -1,6 +1,6 @@
 # Winget Installer for MDM
 
-This repository contains two PowerShell scripts: one for installing Winget and another for detecting its presence. These scripts run in the user context and are used in a deployment solution to resolve a known issue in Windows 11 24H2, where Winget is not installed by default in the user space.
+This repository contains two PowerShell scripts: one for installing Winget and another for detecting its presence. These scripts run in the user context and are used in a deployment solution to resolve issues if winget is not installed in user context for some reason.
 
 ## Scripts
 
